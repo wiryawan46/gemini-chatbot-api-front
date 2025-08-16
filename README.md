@@ -60,6 +60,38 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## API Integration
+
+This chat application is integrated with a backend API. To configure the API endpoint:
+
+1. Create a `.env` file in the root directory
+2. Add the following environment variable:
+   ```
+   VITE_API_BASE_URL=http://localhost:3000/api
+   ```
+3. Replace the URL with your actual API endpoint
+
+The application expects the API to have the following endpoints:
+- `POST /api/chat` - Send a chat message and receive a response
+- `GET /api/chat/history/:conversationId` - Get conversation history (optional)
+
+API Request Format:
+```json
+{
+  "message": "User's message",
+  "conversationId": "optional-conversation-id"
+}
+```
+
+API Response Format:
+```json
+{
+  "message": "AI response message",
+  "conversationId": "conversation-id",
+  "error": "error message if any"
+}
+```
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/7aeb1585-f31b-4a1c-b09f-8b1fe9f6107b) and click on Share -> Publish.
