@@ -1,22 +1,12 @@
-# Welcome to your Lovable project
+# Chat Palace - AI Assistant
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/7aeb1585-f31b-4a1c-b09f-8b1fe9f6107b
+**Chat Palace** is a modern AI chat interface built with React, TypeScript, and Tailwind CSS. It provides a seamless chat experience with your AI assistant through a beautiful and responsive UI.
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/7aeb1585-f31b-4a1c-b09f-8b1fe9f6107b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+You can work with this project using your preferred IDE or development tools.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -94,12 +84,13 @@ API Response Format:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/7aeb1585-f31b-4a1c-b09f-8b1fe9f6107b) and click on Share -> Publish.
+You can deploy this project using any of these methods:
 
-## Can I connect a custom domain to my Lovable project?
+- **Vercel**: Connect your GitHub repo and deploy automatically
+- **Netlify**: Drag and drop your build folder or connect your repo
+- **GitHub Pages**: Use GitHub Actions to build and deploy
+- **Any static hosting service**: Build with `npm run build` and upload the `dist` folder
 
-Yes, you can!
+## Development
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project uses modern web technologies and can be easily customized and extended.
