@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				chat: {
+					background: 'hsl(var(--chat-background))',
+					'user-bubble': 'hsl(var(--chat-user-bubble))',
+					'user-text': 'hsl(var(--chat-user-text))',
+					'bot-bubble': 'hsl(var(--chat-bot-bubble))',
+					'bot-text': 'hsl(var(--chat-bot-text))',
+					'input-background': 'hsl(var(--chat-input-background))',
+					border: 'hsl(var(--chat-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +94,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'bounce-dot': {
+					'0%, 60%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'30%': {
+						transform: 'translateY(-10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'bounce-dot': 'bounce-dot 1.4s infinite'
 			}
 		}
 	},
